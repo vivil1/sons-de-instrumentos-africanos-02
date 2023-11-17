@@ -2,7 +2,7 @@ function tocaSomBerimbau() {
     document.querySelector('#som_tecla_Berimbau').play();
 }
 
-document.querySelector('.tecla_berimbau').onclick = tocaSomBerimbau;
+document.querySelector('.tecla_Berimbau').onclick = tocaSomBerimbau;
 
 function tocaSomClap() {
     document.querySelector('#som_tecla_clap').play();
