@@ -40,14 +40,14 @@ function tocaSomPsh() {
 
 document.querySelector('.tecla_psh').onclick = tocaSomPsh;
 
-function tocaSomToim() {
-    document.querySelector('#som_tecla_toim').play();
+function tocaSomBerimbau() {
+    document.querySelector('#som_tecla_berimbau').play();
 }
 
-document.querySelector('.tecla_toim').onclick = tocaSomToim;
+document.querySelector('.tecla_berimbau').onclick = tocaSomBerimbau;
 
-function tocaSomPsh() {
-    document.querySelector('#som_tecla_psh').play();
+function tocaSomAgogô() {
+    document.querySelector('#som_tecla_agogô').play();
 }
 
 document.querySelector('.tecla_psh').onclick = tocaSomPsh;
