@@ -5,10 +5,10 @@ function tocaSomBerimbau() {
 document.querySelector('.tecla_Berimbau').onclick = tocaSomBerimbau;
 
 function tocaSomClap() {
-    document.querySelector('#som_tecla_clap').play();
+    document.querySelector('#som_tecla_cuíca').play();
 }
 
-document.querySelector('.tecla_clap').onclick = tocaSomClap;
+document.querySelector('.tecla_cuíca').onclick = tocaSomCuíca;
 
 function tocaSomTim() {
     document.querySelector('#som_tecla_tim').play();
