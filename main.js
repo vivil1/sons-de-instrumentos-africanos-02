@@ -46,11 +46,11 @@ function tocaSomBalafon() {
 
 document.querySelector('.tecla_balafon').onclick = tocaSomBalafon;
 
-function tocaSomReco-reco() {
-    document.querySelector('#som_tecla_reco-reco').play();
+function tocaSomTamborFalante() {
+    document.querySelector('#som_tecla_tambor-falante').play();
 }
 
-document.querySelector('.tecla_reco-reco').onclick = tocaSomReco-reco;
+document.querySelector('.tecla_tambor-falante').onclick = tocaSomTamborFalante;
 
 function tocaSomTic() {
     document.querySelector('#som_tecla_tic').play();
