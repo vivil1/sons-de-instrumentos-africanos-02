@@ -10,11 +10,11 @@ function tocaSomCuíca() {
 
 document.querySelector('.tecla_cuíca').onclick = tocaSomCuíca;
 
-function tocaSomTim() {
-    document.querySelector('#som_tecla_tim').play();
+function tocaSomCaxixi() {
+    document.querySelector('#som_tecla_caxixi').play();
 }
 
-document.querySelector('.tecla_tim').onclick = tocaSomTim;
+document.querySelector('.tecla_caxixi').onclick = tocaSomCaxixi;
 
 function tocaSomPuff() {
     document.querySelector('#som_tecla_puff').play();
