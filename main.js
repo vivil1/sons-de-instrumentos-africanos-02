@@ -22,11 +22,11 @@ function tocaSomTambor() {
 
 document.querySelector('.tecla_tambor').onclick = tocaSomTambor;
 
-function tocaSomSplash() {
-    document.querySelector('#som_tecla_splash').play();
+function tocaSomChocalho() {
+    document.querySelector('#som_tecla_chocalho').play();
 }
 
-document.querySelector('.tecla_splash').onclick = tocaSomSplash;
+document.querySelector('.tecla_chocalho').onclick = tocaSomChocalho;
 
 function tocaSomToim() {
     document.querySelector('#som_tecla_toim').play();
