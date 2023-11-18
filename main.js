@@ -28,11 +28,11 @@ function tocaSomChocalho() {
 
 document.querySelector('.tecla_chocalho').onclick = tocaSomChocalho;
 
-function tocaSomToim() {
-    document.querySelector('#som_tecla_toim').play();
+function tocaSomAgogô() {
+    document.querySelector('#som_tecla_agogô').play();
 }
 
-document.querySelector('.tecla_toim').onclick = tocaSomToim;
+document.querySelector('.tecla_agogô').onclick = tocaSomAgogô;
 
 function tocaSomPsh() {
     document.querySelector('#som_tecla_psh').play();
