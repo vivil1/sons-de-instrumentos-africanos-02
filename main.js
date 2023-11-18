@@ -40,11 +40,11 @@ function tocaSomAfoxé() {
 
 document.querySelector('.tecla_afoxé').onclick = tocaSomAfoxé;
 
-function tocaSomToim() {
-    document.querySelector('#som_tecla_toim').play();
+function tocaSomBalafon() {
+    document.querySelector('#som_tecla_balafon').play();
 }
 
-document.querySelector('.tecla_toim').onclick = tocaSomToim;
+document.querySelector('.tecla_balafon').onclick = tocaSomBalafon;
 
 function tocaSomPsh() {
     document.querySelector('#som_tecla_psh').play();
