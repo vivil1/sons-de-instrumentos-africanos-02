@@ -16,11 +16,11 @@ function tocaSomCaxixi() {
 
 document.querySelector('.tecla_caxixi').onclick = tocaSomCaxixi;
 
-function tocaSomPuff() {
-    document.querySelector('#som_tecla_puff').play();
+function tocaSomTambor() {
+    document.querySelector('#som_tecla_tambor').play();
 }
 
-document.querySelector('.tecla_puff').onclick = tocaSomPuff;
+document.querySelector('.tecla_tambor').onclick = tocaSomTambor;
 
 function tocaSomSplash() {
     document.querySelector('#som_tecla_splash').play();
