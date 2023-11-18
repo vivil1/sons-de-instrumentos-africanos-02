@@ -1,8 +1,8 @@
-function tocaSomPom() {
-    document.querySelector('#som_tecla_pom').play();
+function tocaSomBerimbau() {
+    document.querySelector('#som_tecla_berimbau').play();
 }
 
-document.querySelector('.tecla_pom').onclick = tocaSomPom;
+document.querySelector('.tecla_berimbau').onclick = tocaSomBerimbau;
 
 function tocaSomClap() {
     document.querySelector('#som_tecla_clap').play();
