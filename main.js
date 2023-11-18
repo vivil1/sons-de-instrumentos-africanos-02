@@ -34,11 +34,11 @@ function tocaSomAgogô() {
 
 document.querySelector('.tecla_agogô').onclick = tocaSomAgogô;
 
-function tocaSomPsh() {
-    document.querySelector('#som_tecla_psh').play();
+function tocaSomAfoxé() {
+    document.querySelector('#som_tecla_afoxé').play();
 }
 
-document.querySelector('.tecla_psh').onclick = tocaSomPsh;
+document.querySelector('.tecla_afoxé').onclick = tocaSomAfoxé;
 
 function tocaSomToim() {
     document.querySelector('#som_tecla_toim').play();
