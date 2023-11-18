@@ -47,7 +47,7 @@ function tocaSomBalafon() {
 document.querySelector('.tecla_balafon').onclick = tocaSomBalafon;
 
 function tocaSomTamborFalante() {
-    document.querySelector('#som_tecla_tambor-falante').play();
+    document.querySelector('#som_tecla_tambor_falante').play();
 }
 
 document.querySelector('.tecla_tambor-falante').onclick = tocaSomTamborFalante;
